@@ -155,6 +155,26 @@ Run from the project root: `streamlit run ui/dashboard.py`. No authentication; r
 
 ---
 
+## SOC Analyst Dashboard
+
+### SOC Console Views
+
+Screenshots of the Streamlit SOC console:
+
+![SOC overview](diagrams/soc-overview.png)
+
+*Figure 1: SOC overview panel summarizing detected anomalies and risk levels.*
+
+![SOC incident table](diagrams/soc-incident-table.png)
+
+*Figure 2: Incident table with station_id, anomaly type, severity, risk score, and recommended action.*
+
+![SOC time-series](diagrams/soc-timeseries.png)
+
+*Figure 3: Time-series anomaly visualization for a selected station (power_kw and energy_kwh).*
+
+---
+
 ## 8. Project Structure
 
 ```
@@ -200,6 +220,45 @@ The pipeline generates (or loads) telemetry, runs the rule engine, trains the ML
 - `results/summary.json` — overview metrics for the dashboard.
 
 The dashboard reads these results and `data/simulated_telemetry.csv` for the SOC console.
+
+---
+
+## System Evaluation Summary
+
+### 1. Evaluation Setup
+
+- **Synthetic EV charging sessions:** 50 normal and 20 anomalous sessions with time-series telemetry at 1-minute intervals; anomaly types include power spike, meter manipulation, session flooding, interrupted charging, unrealistic energy growth, and flatline meter.
+- **Rule-based + ML hybrid IDS:** Deterministic rules (voltage, power, energy consistency, meter, session behavior) run first; Isolation Forest trained on normal data only produces per-timestamp anomaly scores; correlation engine combines both.
+- **Temporal correlation enabled:** Sliding window of 10 minutes per station; ≥3 sessions from the same station in the window trigger severity escalation.
+- **Recall-prioritized decision logic:** Adaptive ML threshold (85th percentile); ML-only path assigns at least MEDIUM severity when no rules fire, so that ML-detected anomalies are not missed.
+
+### 2. Key Metrics (Representative)
+
+| Metric    | Value  |
+|----------|--------|
+| Precision | ≈ 0.38 |
+| Recall    | ≈ 0.85 |
+| F1-score  | ≈ 0.52 |
+
+Positive class: MEDIUM, HIGH, or CRITICAL severity (actionable alerts).
+
+### 3. Security Interpretation
+
+- **Why recall is prioritized over precision:** In critical infrastructure cybersecurity, undetected attacks pose a greater systemic risk than false alerts. A high-recall system surfaces more potential incidents for analyst triage; a high-precision, low-recall system may leave real intrusions unaddressed.
+- **Why false positives are acceptable:** False positives consume analyst time but do not leave the infrastructure exposed. They can be filtered, reviewed, and dismissed; missed attacks cannot be recovered after the fact.
+- **Why missed attacks are not acceptable:** A single undetected compromise can lead to safety failures, fraud, or cascading outages. The design therefore tolerates additional alerts to minimize the probability of missed detection.
+
+*In critical infrastructure cybersecurity, undetected attacks pose a greater systemic risk than false alerts.*
+
+### 4. ML-Only Detection Insight
+
+A significant portion of anomalies in the evaluation were detected **solely by the ML engine** (no rules fired). This demonstrates resilience against rule evasion: attackers or faults that do not trigger any of the predefined rules can still be flagged by the learned normal-behavior model. The correlation engine explicitly surfaces this via the ML-only path and the reported count of *anomalies detected only by ML* in the evaluation output.
+
+### 5. Limitations
+
+- **Synthetic data:** All sessions and telemetry are simulated; no real charging stations or vehicles.
+- **No live OCPP traffic:** The system does not ingest real Open Charge Point Protocol or other charging-protocol traffic.
+- **Prototype-level deployment:** Intended for research and academic review; not production-hardened (e.g. no authentication, no formal deployment model).
 
 ---
 

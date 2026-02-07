@@ -85,8 +85,16 @@ st.header("B. Incident Table")
 
 if alerts:
     df = pd.DataFrame(alerts)
+    # Presentation-layer fix: show ML_DETECTED_ANOMALY when anomaly_type is "normal"
+    # but severity is actionable, to avoid analyst confusion (stored data unchanged)
+    df_display = df.copy()
+    if "anomaly_type" in df_display.columns and "severity" in df_display.columns:
+        mask = (df_display["anomaly_type"] == "normal") & (
+            df_display["severity"].isin(["MEDIUM", "HIGH", "CRITICAL"])
+        )
+        df_display.loc[mask, "anomaly_type"] = "ML_DETECTED_ANOMALY"
     cols_display = ["station_id", "anomaly_type", "severity", "risk_score", "confidence", "recommended_action"]
-    df_display = df[[c for c in cols_display if c in df.columns]]
+    df_display = df_display[[c for c in cols_display if c in df_display.columns]]
     st.dataframe(df_display, use_container_width=True)
 else:
     st.write("No alerts to display.")
