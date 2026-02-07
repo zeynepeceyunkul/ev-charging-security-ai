@@ -1,0 +1,702 @@
+[
+  {
+    "station_id": "STATION_11",
+    "session_id": "01b87ec1-1a2",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.48,
+    "risk_score": 43.4,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.90)"
+  },
+  {
+    "station_id": "STATION_12",
+    "session_id": "030d2449-549",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.32,
+    "risk_score": 15.2,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.49)"
+  },
+  {
+    "station_id": "STATION_13",
+    "session_id": "03676047-624",
+    "anomaly_type": "unrealistic_energy_growth",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.01); type=unrealistic_energy_growth"
+  },
+  {
+    "station_id": "STATION_08",
+    "session_id": "03d06218-7e8",
+    "anomaly_type": "flatline_meter",
+    "severity": "HIGH",
+    "confidence": 0.54,
+    "risk_score": 44.2,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "20 rule(s) triggered (max weight=0.80); type=flatline_meter"
+  },
+  {
+    "station_id": "STATION_14",
+    "session_id": "05b2eaa5-617",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.47,
+    "risk_score": 43.3,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.89)"
+  },
+  {
+    "station_id": "STATION_12",
+    "session_id": "07b9249c-333",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_07",
+    "session_id": "1c1c2b8c-a57",
+    "anomaly_type": "power_spike",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=power_spike"
+  },
+  {
+    "station_id": "STATION_09",
+    "session_id": "22c354ce-6d9",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.47,
+    "risk_score": 43.3,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.88)"
+  },
+  {
+    "station_id": "STATION_13",
+    "session_id": "35957486-7f5",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_02",
+    "session_id": "38773a69-09f",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "No indicators"
+  },
+  {
+    "station_id": "STATION_01",
+    "session_id": "4907e849-3ff",
+    "anomaly_type": "unrealistic_energy_growth",
+    "severity": "LOW",
+    "confidence": 0.22,
+    "risk_score": 14.9,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.08); type=unrealistic_energy_growth"
+  },
+  {
+    "station_id": "STATION_08",
+    "session_id": "4928555b-a35",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.45,
+    "risk_score": 43.0,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.78)"
+  },
+  {
+    "station_id": "STATION_10",
+    "session_id": "497a3ba9-142",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.37,
+    "risk_score": 15.3,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.68)"
+  },
+  {
+    "station_id": "STATION_01",
+    "session_id": "49a675e1-4ae",
+    "anomaly_type": "power_spike",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=power_spike"
+  },
+  {
+    "station_id": "STATION_09",
+    "session_id": "4a79676a-bd8",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.9,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.02)"
+  },
+  {
+    "station_id": "STATION_02",
+    "session_id": "4ca206e0-74f",
+    "anomaly_type": "session_flooding",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=session_flooding"
+  },
+  {
+    "station_id": "STATION_13",
+    "session_id": "4d8f3cd3-5cc",
+    "anomaly_type": "flatline_meter",
+    "severity": "HIGH",
+    "confidence": 0.56,
+    "risk_score": 44.5,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "20 rule(s) triggered (max weight=0.80); ML anomaly score elevated (0.08); type=flatline_meter"
+  },
+  {
+    "station_id": "STATION_12",
+    "session_id": "4fcf30db-ca6",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_10",
+    "session_id": "541930c1-99e",
+    "anomaly_type": "unrealistic_energy_growth",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "type=unrealistic_energy_growth"
+  },
+  {
+    "station_id": "STATION_07",
+    "session_id": "58de6d1a-20b",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_10",
+    "session_id": "5d199225-5bc",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.27,
+    "risk_score": 15.0,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.26)"
+  },
+  {
+    "station_id": "STATION_04",
+    "session_id": "5e5831e1-187",
+    "anomaly_type": "interrupted_charging",
+    "severity": "CRITICAL",
+    "confidence": 0.89,
+    "risk_score": 63.1,
+    "recommended_action": "Flag station for inspection",
+    "anomaly_summary": "10 rule(s) triggered (max weight=0.80); ML anomaly score elevated (1.00); type=interrupted_charging"
+  },
+  {
+    "station_id": "STATION_07",
+    "session_id": "68c55a6c-86d",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_01",
+    "session_id": "6b7f4f39-b0f",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_03",
+    "session_id": "6e48c4eb-a12",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.33,
+    "risk_score": 15.2,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.53)"
+  },
+  {
+    "station_id": "STATION_07",
+    "session_id": "6f67d6df-687",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.23,
+    "risk_score": 14.9,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.14)"
+  },
+  {
+    "station_id": "STATION_06",
+    "session_id": "744b0c1e-e95",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.47,
+    "risk_score": 43.3,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.87)"
+  },
+  {
+    "station_id": "STATION_03",
+    "session_id": "77ec7fca-7ac",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.45,
+    "risk_score": 43.1,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.82)"
+  },
+  {
+    "station_id": "STATION_07",
+    "session_id": "781cd6d6-69e",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "No indicators"
+  },
+  {
+    "station_id": "STATION_13",
+    "session_id": "7c4560cd-486",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "No indicators"
+  },
+  {
+    "station_id": "STATION_09",
+    "session_id": "8149c6e5-6d4",
+    "anomaly_type": "meter_manipulation",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=meter_manipulation"
+  },
+  {
+    "station_id": "STATION_09",
+    "session_id": "8559c549-02d",
+    "anomaly_type": "power_spike",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=power_spike"
+  },
+  {
+    "station_id": "STATION_12",
+    "session_id": "8593de42-6cc",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "No indicators"
+  },
+  {
+    "station_id": "STATION_06",
+    "session_id": "8a67050c-db2",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.48,
+    "risk_score": 43.5,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.94)"
+  },
+  {
+    "station_id": "STATION_07",
+    "session_id": "8abd3663-6ab",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_06",
+    "session_id": "8b31f013-370",
+    "anomaly_type": "meter_manipulation",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=meter_manipulation"
+  },
+  {
+    "station_id": "STATION_12",
+    "session_id": "8c3367e3-2ff",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.3,
+    "risk_score": 15.1,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.39)"
+  },
+  {
+    "station_id": "STATION_10",
+    "session_id": "8c6b8c33-dda",
+    "anomaly_type": "meter_manipulation",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=meter_manipulation"
+  },
+  {
+    "station_id": "STATION_11",
+    "session_id": "8e1a3cbf-031",
+    "anomaly_type": "session_flooding",
+    "severity": "HIGH",
+    "confidence": 0.46,
+    "risk_score": 43.1,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.82); type=session_flooding"
+  },
+  {
+    "station_id": "STATION_10",
+    "session_id": "8eac4c31-eb7",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_03",
+    "session_id": "a1cd930c-5a0",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.35,
+    "risk_score": 15.2,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.61)"
+  },
+  {
+    "station_id": "STATION_08",
+    "session_id": "a5786c38-6da",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.48,
+    "risk_score": 43.4,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.92)"
+  },
+  {
+    "station_id": "STATION_06",
+    "session_id": "a6fa1663-d2a",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_06",
+    "session_id": "ac09c24e-828",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.44,
+    "risk_score": 42.9,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.75)"
+  },
+  {
+    "station_id": "STATION_10",
+    "session_id": "b0327009-887",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.45,
+    "risk_score": 43.1,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.80)"
+  },
+  {
+    "station_id": "STATION_05",
+    "session_id": "b3fd409e-fb5",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "No indicators"
+  },
+  {
+    "station_id": "STATION_01",
+    "session_id": "b5c2363d-885",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.33,
+    "risk_score": 15.2,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.53)"
+  },
+  {
+    "station_id": "STATION_09",
+    "session_id": "b81208ba-b7d",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_04",
+    "session_id": "bf10086b-650",
+    "anomaly_type": "interrupted_charging",
+    "severity": "CRITICAL",
+    "confidence": 0.89,
+    "risk_score": 63.1,
+    "recommended_action": "Flag station for inspection",
+    "anomaly_summary": "10 rule(s) triggered (max weight=0.80); ML anomaly score elevated (1.00); type=interrupted_charging"
+  },
+  {
+    "station_id": "STATION_08",
+    "session_id": "bf514774-300",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.34,
+    "risk_score": 15.2,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.55)"
+  },
+  {
+    "station_id": "STATION_05",
+    "session_id": "bf7b5583-b61",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_11",
+    "session_id": "c1edb702-2ba",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_07",
+    "session_id": "c88130c1-26f",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.33,
+    "risk_score": 15.2,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.54)"
+  },
+  {
+    "station_id": "STATION_04",
+    "session_id": "cabdcba6-3c0",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_10",
+    "session_id": "cb3f4938-a3d",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.44,
+    "risk_score": 42.9,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.75)"
+  },
+  {
+    "station_id": "STATION_02",
+    "session_id": "cb4e7491-3b1",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.36,
+    "risk_score": 15.3,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.63)"
+  },
+  {
+    "station_id": "STATION_05",
+    "session_id": "cd90e81c-20a",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "No indicators"
+  },
+  {
+    "station_id": "STATION_04",
+    "session_id": "cd94d0a0-708",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.36,
+    "risk_score": 15.3,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.66)"
+  },
+  {
+    "station_id": "STATION_02",
+    "session_id": "ce0a0eb0-4fa",
+    "anomaly_type": "session_flooding",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=session_flooding"
+  },
+  {
+    "station_id": "STATION_05",
+    "session_id": "d475b015-ed9",
+    "anomaly_type": "flatline_meter",
+    "severity": "HIGH",
+    "confidence": 0.54,
+    "risk_score": 44.2,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "20 rule(s) triggered (max weight=0.80); type=flatline_meter"
+  },
+  {
+    "station_id": "STATION_01",
+    "session_id": "d95657c7-f28",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.28,
+    "risk_score": 15.1,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.32)"
+  },
+  {
+    "station_id": "STATION_08",
+    "session_id": "e5364bf2-f68",
+    "anomaly_type": "power_spike",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00); type=power_spike"
+  },
+  {
+    "station_id": "STATION_08",
+    "session_id": "e7a73b3f-b0c",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_06",
+    "session_id": "e859dc6e-2d6",
+    "anomaly_type": "meter_manipulation",
+    "severity": "HIGH",
+    "confidence": 0.46,
+    "risk_score": 43.2,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.84); type=meter_manipulation"
+  },
+  {
+    "station_id": "STATION_06",
+    "session_id": "e88bb596-81a",
+    "anomaly_type": "interrupted_charging",
+    "severity": "CRITICAL",
+    "confidence": 0.89,
+    "risk_score": 63.1,
+    "recommended_action": "Flag station for inspection",
+    "anomaly_summary": "10 rule(s) triggered (max weight=0.80); ML anomaly score elevated (1.00); type=interrupted_charging"
+  },
+  {
+    "station_id": "STATION_11",
+    "session_id": "f0dc6d29-9ce",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.5,
+    "risk_score": 43.7,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (1.00)"
+  },
+  {
+    "station_id": "STATION_08",
+    "session_id": "f5b750bc-555",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.2,
+    "risk_score": 14.8,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "No indicators"
+  },
+  {
+    "station_id": "STATION_13",
+    "session_id": "f6cc3bf5-ccb",
+    "anomaly_type": "normal",
+    "severity": "LOW",
+    "confidence": 0.35,
+    "risk_score": 15.2,
+    "recommended_action": "Monitor",
+    "anomaly_summary": "ML anomaly score elevated (0.61)"
+  },
+  {
+    "station_id": "STATION_03",
+    "session_id": "f80f1061-d49",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.48,
+    "risk_score": 43.5,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.93)"
+  },
+  {
+    "station_id": "STATION_08",
+    "session_id": "fcf60b51-527",
+    "anomaly_type": "normal",
+    "severity": "HIGH",
+    "confidence": 0.48,
+    "risk_score": 43.4,
+    "recommended_action": "Temporarily suspend session",
+    "anomaly_summary": "ML anomaly score elevated (0.92)"
+  }
+]

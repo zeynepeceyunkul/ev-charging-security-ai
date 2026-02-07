@@ -1,0 +1,28 @@
+============================================================
+AI-Based Anomaly Detection for EV Charging Stations
+Evaluation Metrics (Standalone Project)
+============================================================
+
+Accuracy:  0.9500
+Precision: 0.7143
+Recall:    0.7500
+
+Confusion Matrix (rows=true, cols=predicted):
+         predicted_normal  predicted_anomaly
+true_normal       194                   6
+true_anomaly       5                  15
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      normal       0.97      0.97      0.97       200
+     anomaly       0.71      0.75      0.73        20
+
+    accuracy                           0.95       220
+   macro avg       0.84      0.86      0.85       220
+weighted avg       0.95      0.95      0.95       220
+
+
+Target: >= 95% anomaly detection accuracy on test set.
+Target met: Yes
+============================================================

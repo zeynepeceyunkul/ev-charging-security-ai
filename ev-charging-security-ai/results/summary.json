@@ -1,0 +1,16 @@
+{
+  "total_sessions": 70,
+  "anomaly_count": 20,
+  "severity_counts": {
+    "LOW": 25,
+    "MEDIUM": 0,
+    "HIGH": 42,
+    "CRITICAL": 3
+  },
+  "checklist_risk": 20.000000000000004,
+  "avg_risk_score": 34.219641447519564,
+  "precision": 0.37777777777777777,
+  "recall": 0.85,
+  "f1_score": 0.523076923076923,
+  "anomalies_detected_ml_only": 11
+}
