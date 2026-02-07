@@ -161,15 +161,15 @@ Run from the project root: `streamlit run ui/dashboard.py`. No authentication; r
 
 Screenshots of the Streamlit SOC console:
 
-![SOC overview](diagrams/soc-overview.png)
+![SOC overview](diagrams/soc_overview.png)
 
 *Figure 1: SOC overview panel summarizing detected anomalies and risk levels.*
 
-![SOC incident table](diagrams/soc-incident-table.png)
+![SOC incident table](diagrams/soc_incident_table.png)
 
 *Figure 2: Incident table with station_id, anomaly type, severity, risk score, and recommended action.*
 
-![SOC time-series](diagrams/soc-timeseries.png)
+![SOC time-series](diagrams/soc_time_series.png)
 
 *Figure 3: Time-series anomaly visualization for a selected station (power_kw and energy_kwh).*
 
